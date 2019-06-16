@@ -1,5 +1,5 @@
 # UDACITY: Intro to Deep Learning with PyTorch 
-# AND Perception
+# AND Perceptron
 
 
 import pandas as pd
