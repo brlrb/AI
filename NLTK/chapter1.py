@@ -16,14 +16,26 @@ print(26 ** 100)
 # Question 3
 print(""" The Python multiplication operation can be applied to lists. 
         What happens when you type ['Monty', 'Python'] * 20, or 3 * sent1? """)
+print(['Monty', 'Python'] * 20) 
+print(3 * sent1)
+
 
 # Question 4
 print(""" Review 1 on computing with language. How many words are there in text2? 
         How many distinct words are there? """)
+print(len(text2))
+print(len(set(text2)))
+
 
 # Question 5
 print(""" Compare the lexical diversity scores for humor and romance fiction in 1.1. 
         Which genre is more lexically diverse? """)
+print("""Per the table in 1.1, we can see that humor has lexical diversity score of 0.231
+        and Romance Fiction has lexical diversity score of 0.121. We know that higher this score, 
+        it is more lexical diverse because there are more distinct words. 
+
+        With that said, humor is more lexically diverse """)
+
 
 # Question 6
 print(""" Produce a dispersion plot of the four main protagonists in 
