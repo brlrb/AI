@@ -4,3 +4,4 @@
 cache/
 shared_cache/
 requirements.txt
+.DS_Store
